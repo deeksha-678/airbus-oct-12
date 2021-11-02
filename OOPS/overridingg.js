@@ -7,21 +7,21 @@ class Person
     }
     greet()
     {
-        console.log('Hello ${this.name}.');
+        console.log("Hello",this.name);
 
     }
 }
-class Student extends Person{
+class Student extends Person {
     constructor (name)
     {
         super(name);
         this.occupation='Student';
             }
-            greet()
-            {
-                console.log('Hellow student ${this.name}.');
-                console.log('occupation: ' + this.occupation);
-                            }
+            greet() {
+        
+                console.log("Hello student",this.name);
+                console.log("occupation: ",this.occupation);                         
 }
-let p=new Student('Jack');
+}
+let p=new Student("Jack");
 p.greet();
