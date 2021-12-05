@@ -1,5 +1,4 @@
-package pack1;
-public class A
-{
-    public int a=234;
-}
+package pack;  
+class A{  
+  void msg(){System.out.println("Hello");}  
+} 
