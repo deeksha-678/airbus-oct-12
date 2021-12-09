@@ -1,11 +1,14 @@
 import React,{Component} from "react";
-import Navbar from './component/Navbar';
-import Router from './component/Router';
+import Employee from './component/Employee';
+import EmployeeList from './component/EmployeeList';
 class App extends Component{
   render(){
     return <div>
-<Navbar />
-<Router />
+      <h1>Employee Details</h1>
+<hr />
+<Employee />
+
+<EmployeeList />
     </div>
   }
 }
